@@ -213,7 +213,7 @@ $sth->execute(array($itemid,$qty,$sessid,$time));
                 //product name which links to product page
                 echo '<p class="card-subtitle"><a href="' .$link. '" title="'.$name.'">' .$name. '</a></p>
                 </div>
-                <img class="card-img-top" src = "'.$root.'thumbnail.php?pic='.$img.'&ht=auto&wd=500" alt="'.$name.'">
+                <img class="card-img-top" src = "thumbnail.php?pic='.$img.'&ht=500&wd=500" alt="'.$name.'">
                 <span class="price"> $'.$price.'</span>
                 
                 <div class="card-footer">
