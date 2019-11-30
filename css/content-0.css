@@ -1,0 +1,260 @@
+h3{
+    font-family: 'Averia Serif Libre', sans-serif;
+}
+
+h4{
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    font-family: 'Averia Serif Libre', sans-serif;
+    color: #ff5a27; 
+}
+
+a{
+    color: #000;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #3e8563;
+}
+
+body{
+    line-height: 1.25;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.content-sec {
+    padding: 1rem 0rem;
+    background: #e9e9e2;
+}
+
+.content-sec:nth-child(even) {
+    background: #f5f5ef
+}
+
+.jumbotron{
+    border-radius: 0;
+    padding: 6rem 2rem;
+    background-color: grey;
+    background-image: url("../images/hp-jumbotron-winter-promo.jpg");
+}
+
+@media (min-width: 576px){
+    .jumbotron {
+        padding: 6rem 2rem;
+    }
+}
+.jumbotron .mb-4, .my-4 {
+    margin-top: .75rem!important;
+    margin-bottom: .75rem!important;
+}
+
+.jumbotron h1{
+    margin-top: 1rem;
+    font-family: 'Averia Serif Libre', sans-serif;
+}
+
+/** GLOBAL BUTTON STYLE **/
+.btn-primary{
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: .5rem 2rem;
+    background-color: transparent;
+    border-radius: 20rem;
+}
+.btn-primary:hover, .card .btn-primary:hover, #quiz .btn-primary:hover{
+    color: #fff;
+    background-color: #ff5a27;
+    border-color: transparent;
+}
+
+/*.btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ff5a27;
+    border-color: transparent;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.23);
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(113, 219, 171, 0.65);
+}
+/** END GLOBAL BUTTON STYLE **/
+
+.btn-group-lg>.btn, .btn-lg{
+    margin: .75rem 0 1rem 0;
+    border: 2px solid #fff;
+}
+
+/** MID TO LARGE WINDOWS ONLY **/
+@media only screen and (min-width: 440px) {
+    .btn-group-lg>.btn, .btn-lg:nth-child(even){
+        margin-left: 10px;
+    }
+}
+
+.display-3{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.lead{
+    color: #fff;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.callout-msg{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* color: #ff5a27; 
+    */
+}
+
+.card{
+    border: 0;
+    border-radius: 0;
+}
+
+.card-img-top{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.card .card-header{
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #fff;
+    color: #3e8563;
+}
+
+.card .price{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.card .strike-price{
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+
+.card-footer {
+    background-color: transparent;
+    border-top: none;
+}
+
+.card .btn-primary, #quiz .btn-primary{
+    color: #5c433c;
+    border: 2px solid #5c433c;
+}
+
+#quiz .row{
+    margin: 0;
+    padding: 0;
+}
+
+#quiz .spacer-bottom{
+    margin-bottom: 1rem;
+}
+
+/** XLARGE VIEWPORTS ONLY **/
+@media only screen and (min-width: 992px) {
+    .align-middle{
+        padding-top: 50%;
+    }
+    spacer-right{
+        margin-right: 5rem;
+    }    
+}
+
+#help{
+    display: inline-block;
+    padding-left: 85%;
+    padding-bottom: 1%;
+}
+
+/** MID VIEWPORTS ONLY **/
+@media only screen and (min-width: 768px) {
+   #help{
+    padding-left: 90%;
+    }
+}
+
+#help p{
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+#help i{
+    color: #ff5a27;
+}
+
+/** FOOTER STYLES **/
+
+footer{
+    font-size: .8rem;
+}
+
+footer h5{
+    font-size: .85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: .25rem; 
+}
+
+/** MID TO XLARGE VIEWPORTS ONLY - SUBSCRIBE FORM **/
+@media only screen and (min-width: 768px){
+    .width-50 {
+        max-width: 50%;
+    }
+}
+
+.form-control-sm, .input-group-sm>.form-control, .input-group-sm>.input-group-addon, .input-group-sm{
+    border-radius: 2rem;
+    padding: .5rem;
+}
+
+.form-control-sm, .input-group-sm>.form-control, .input-group-sm>.input-group-addon, .input-group-sm>.input-group-btn>.btn{
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+footer .btn-secondary{
+    color: #867b78;
+    border: 2px solid #867b78;
+}
+
+footer .input-group .form-control{
+    border-top: 2px solid #867b78;
+    border-right: 0;
+    border-bottom: 2px solid #867b78;
+    border-left: 2px solid #867b78;
+}
+
+footer .form-control-sm, .input-group-sm>.form-control, .input-group-sm>.input-group-addon, .input-group-sm>.input-group-btn>.btn{
+    font-size: .75rem;
+}
+
+footer .btn-secondary:hover, footer .btn-secondary:active, footer .btn-secondary:focus{
+    color: #fff ;
+    background: none;
+    background-color: #ff5a27;
+    border-color: transparent;
+}
+
+footer li{
+    display: block;
+    line-height: 1.5;
+}

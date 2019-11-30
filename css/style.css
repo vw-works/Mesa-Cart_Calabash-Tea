@@ -1,0 +1,128 @@
+body{
+    line-height: 1.25;
+}
+
+/** HEADER STYLES **/
+header .bg-light {
+    background-color: #f5f5ef !important;
+}
+
+.header-row{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem .75rem .25rem .75rem;
+}
+
+.clearfix{
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+.header-row span{
+    display: inline-block;
+    padding-top: 5px;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.navbar{
+    padding: 0 .75rem .25rem .75rem;
+}
+
+.navbar-toggler{
+    border: 0;
+}
+
+button:focus{
+    outline: 2px solid #fff;
+}
+
+#navbarSupportedContent{
+    margin-top: -7px;
+}
+
+/* Search Bar */
+.search-bar{
+    position: relative;
+    font-size: 18px;
+    padding-top: 12px;
+    margin: -20px -2px 0;
+}
+
+.search-bar .form-control {
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 2rem;
+    padding: .175rem .55rem;
+
+}
+
+[type="search"]{
+    outline-offset: 0px;
+}
+
+.search-bar i{
+    position: absolute;
+    display: inline-block;
+    left: 180px;
+    top: 19px;
+}
+
+form .btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 0;
+    color: black;
+    background: transparent;
+}
+
+form .btn:hover, .btn:active, .btn:focus{
+    color: ff5a27;
+    background: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.user-info .fa-lg{
+    font-size: 1.5rem;
+}
+
+.user-info .fa-circle{
+    font-size: 1.75rem;
+}
+
+.user-info .fa-stack{
+    width: 1.75rem;
+    height: -1rem;
+    line-height: 2.15rem;
+    margin-left: 3px;
+}
+
+.user-info .fa-shopping-cart{
+    font-size: 1.15rem;
+    top: -57px;
+    left: 3px;
+}
+
+.user-info .cart-count{
+    font-size: .75rem;
+}
+/** CHROME - SAFARI ONLY **/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .search-bar i{
+        left: 150px;
+    }
+}
+/** END CHROME - SAFARI ONLY **/
+
